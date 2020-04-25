@@ -874,9 +874,9 @@
 
   </target>
 
-  <!--   Creates jar of test utility classes -->
+  <!--   Creates jar of test utility classes 
   <target name="test-jar" depends="compile-tests"
-          description="--> creates the Apache Ant Test Utilities jar">
+          description=" creates the Apache Ant Test Utilities jar">
 
     <fail unless="junit.present">
       We cannot build the test jar unless JUnit is present,
@@ -891,7 +891,7 @@
       </metainf>
     </jar>
   </target>
-
+  -->
   <!--
        ===================================================================
          Create the all of the Apache Ant source jars
